@@ -1,6 +1,4 @@
-
-# Hirb-unicode
-
+# Hirb-unicode 
 `hirb-unicode` fixes the problem that [full-width unicode characters](http://en.wikipedia.org/wiki/Fullwidth_form#Fullwidth_form) is aligned incorrectly.
 
 In the original `hirb` unicode gem, the full-width character will be misaligned: 
@@ -41,7 +39,7 @@ This will load `hirb` and `hirb-unicode`, and fix the unicode problem automtical
     gem 'hirb-unicode'
     require 'hirb-unicode'
 
-If you are using `bundler` (ex. Rails 3), add `hirb-unicode` into your gemfile
+If you are using `bundler` (ex. Rails 3), add `hirb-unicode` into your gemfile:
 
     gem 'hirb-unicode'
 
@@ -55,7 +53,7 @@ And run `require 'hirb-unicode'` in your irb console or `.irbrc`
 
 * `rake test:hirb` loads `hirb` and `hirb-unicode`, run all test of original `hirb` gem. This ensures the original `hirb` functionality is not broken.
 * `rake test:unicode` tests functions about unicode string processing.
-* `rake test` run both the two tests above.
+* `rake test` run both two tests above.
 
 ## License
 
