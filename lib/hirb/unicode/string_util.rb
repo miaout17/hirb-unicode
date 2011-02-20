@@ -1,6 +1,3 @@
-require 'hirb'
-require 'unicode/display_width'
-
 module Hirb
   module Unicode
     module StringUtil
