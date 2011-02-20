@@ -21,6 +21,17 @@ module Hirb
         head = chars[0, split_index].join
         head
       end
+
+      def ljust(string, desired_width)
+        leftover = desired_width - size(string)
+        leftover > 0 ? string + " " * leftover : string
+      end
+
+      def rjust(string, desired_width)
+        leftover = desired_width - size(string)
+        leftover > 0 ? " " * leftover + string : string
+      end
+
     end
   end
 end
