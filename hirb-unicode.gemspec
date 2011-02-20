@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "hirb-unicode/version"
+require "hirb/unicode/version"
 
 Gem::Specification.new do |s|
   s.name        = "hirb-unicode"
