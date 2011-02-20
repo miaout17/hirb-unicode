@@ -1,1 +1,1 @@
-require 'hirb/unicode/string_util'
+require 'hirb/unicode'
