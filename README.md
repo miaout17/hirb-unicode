@@ -3,30 +3,11 @@
 
 In the original `hirb` unicode gem, the full-width character will be misaligned: 
 
-    +----+-------------+-------------------------+-------------------------+
-    | id | content     | created_at              | updated_at              |
-    +----+-------------+-------------------------+-------------------------+
-    | 2  | 大樂透後天開獎！    | 2011-02-17 15:28:32 UTC | 2011-02-17 15:28:32 UTC |
-    | 3  | Hello,World | 2011-02-17 15:28:40 UTC | 2011-02-17 15:28:40 UTC |
-    | 4  | 頭獎上看十八億     | 2011-02-17 15:29:02 UTC | 2011-02-17 15:29:02 UTC |
-    | 5  | 海角上看七億      | 2011-02-17 15:29:18 UTC | 2011-02-17 15:29:18 UTC |
-    | 6  | こんにちは       | 2011-02-17 15:32:18 UTC | 2011-02-17 15:32:18 UTC |
-    +----+-------------+-------------------------+-------------------------+
+![Original hirb screenshot](http://miaout17.github.com/hirb-unicode/hirb-original.png)
 
 With `hirb-unicode`, the cells is correctly aligned: 
 
-    +----+------------------+-------------------------+-------------------------+
-    | id | content          | created_at              | updated_at              |
-    +----+------------------+-------------------------+-------------------------+
-    | 2  | 大樂透後天開獎！ | 2011-02-17 15:28:32 UTC | 2011-02-17 15:28:32 UTC |
-    | 3  | Hello,World      | 2011-02-17 15:28:40 UTC | 2011-02-17 15:28:40 UTC |
-    | 4  | 頭獎上看十八億   | 2011-02-17 15:29:02 UTC | 2011-02-17 15:29:02 UTC |
-    | 5  | 海角上看七億     | 2011-02-17 15:29:18 UTC | 2011-02-17 15:29:18 UTC |
-    | 6  | こんにちは       | 2011-02-17 15:32:18 UTC | 2011-02-17 15:32:18 UTC |
-    +----+------------------+-------------------------+-------------------------+
-
-P.S. If the table is not perfectly aligned in your browser, that's font problem. Checkout the project and type `cat README.md` in your console :)
-
+![Original hirb screenshot](http://miaout17.github.com/hirb-unicode/hirb-unicode.png)
 
 ## Installation
 
