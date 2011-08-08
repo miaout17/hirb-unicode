@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'mocha'
   s.add_development_dependency 'mocha-on-bacon'
   s.add_development_dependency 'bacon-bits'
+  s.add_development_dependency 'rake'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
